@@ -1210,11 +1210,11 @@
 				}));
 			}
 
-//			pdfMake.fonts = {
-//				msyh: {
-//					normal: 'msyh.ttf'
-//				}
-//			};
+			pdfMake.fonts = {
+				msyh: {
+					normal: 'FZYTK.TTF'
+				}
+			};
 
 			var doc = {
 				pageSize: config.pageSize,
@@ -1228,7 +1228,7 @@
 				}],
 				styles: {
 					tableHeader: {
-						bold: true,
+						bold: false,
 						fontSize: 11,
 						color: 'white',
 						fillColor: '#2d4154',
